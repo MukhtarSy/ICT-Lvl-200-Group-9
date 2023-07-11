@@ -1,0 +1,117 @@
+body
+{
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.hero
+{
+	height: 100vh;
+	width: 100%;
+	
+}
+nav
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.logo
+{
+	color: white;
+	font-size: 35px;
+}
+span
+{
+	color: #ea1538;
+}
+nav ul li
+{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li a:hover
+{
+	color: #ea1538;
+	transition: .3s;
+}
+button
+{
+	border: none;
+	background: #ea1538;
+	padding: 12px 30px;
+	border-radius: 30px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	transition: .4s;
+}
+button:hover
+{
+	transform: scale(1.3);
+	cursor: pointer;
+}
+.content
+{
+   	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.heading
+{
+	color: white;
+	font-size: 20px;
+}
+.par
+{
+	color: white;
+	font-size: 13px;
+	padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 15px;
+    display: flex;
+    padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+footer
+{
+	background-color: transparent;
+	font-family: sans-serif;
+	color: white;
+	font-size: 17px;
+	text-align: center;
+}
+.memb
+{
+	color: #ea1538;
+	padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.members
+{
+	color: white;
+	padding-top: 20px;
+	padding-left: 5%;
+	padding-right: 5%;
+}
